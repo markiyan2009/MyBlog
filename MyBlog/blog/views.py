@@ -8,6 +8,6 @@ def get_posts(request):
     }
     return render(
         request=request,
-        template_name="",
+        template_name="blog/posts_list.html",
         context=context
     )
