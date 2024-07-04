@@ -7,4 +7,5 @@ class Post(models.Model):
     published_date = models.DateTimeField()
 
     def __str__(self):
-        return self.title
+        return self.title + "\n" + self.content
+        
